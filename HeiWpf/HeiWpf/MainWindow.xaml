@@ -1,0 +1,14 @@
+﻿<Window x:Class="HeiWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HeiWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtHello" HorizontalAlignment="Left" Height="102" Margin="76,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="318"/>
+        <Button x:Name="btnHello" Content="Say Hello!" HorizontalAlignment="Left" Height="92" Margin="76,171,0,0" VerticalAlignment="Top" Width="318" Click="btnHello_Click"/>
+
+    </Grid>
+</Window>
