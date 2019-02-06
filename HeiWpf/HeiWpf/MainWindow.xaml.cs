@@ -27,7 +27,8 @@ namespace HeiWpf
 
         private void btnHello_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Hei " + txtHello.Text + "!");
+            //messagebox =rutiini ja show=toiminnallisuus
+            MessageBox.Show("Hei " + txtHello.Text + " " + txtHello2.Text + "!");
         }
     }
 }
